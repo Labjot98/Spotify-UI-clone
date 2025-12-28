@@ -1,11 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
-</head>
-<body>
-    <h1>Spotify</h1>
-</body>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/bb72748f73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav>
+      <div class="logo-cont">
+        <img src="./assets/logo-new.png" alt="Spotify Logo" />
+      </div>
+
+      <div class="search-bar-cont">
+        <div class="nav-home-cont">
+          <i class="fa-solid fa-house" style="color: #ffffff"></i>
+        </div>
+        <div class="search-bar">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="What do you want to play?"
+          />
+          <i class="fa-solid fa-search" style="color: #ffffff"></i>
+        </div>
+      </div>
+
+      <div class="right-sec">
+        <div class="nav-link-cont">
+          <a href="#">Premium</a>
+          <a href="#">Support</a>
+          <a href="#">Download</a>
+        </div>
+        <div class="nav-btn-cont">
+          <a href="#">Sign up</a>
+          <button id="login-btn">Log in</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Side Bar -->
+      <section class="sidebar-cont">
+        <div class="sidebar-top-cont">
+          <h4>Your Library</h4>
+          <p>+</p>
+        </div>
+        <div class="sidebar-inside-cont">
+          <div class="sidebar-playlist-cont cont">
+            <h4>Create your first playlist</h4>
+            <p>It's easy, we'll help you</p>
+            <button>Create playlist</button>
+          </div>
+          <div class="sidebar-podcast-cont cont">
+            <h4>Let's find some podcasts to follow</h4>
+            <p>We'll keep you updated on new episodes</p>
+            <button>Browse Podcasts</button>
+          </div>
+        </div>
+        <div class="sidebar-links-cont">
+          <div>
+            <p>Accessibility</p>
+            <p>UK Tax Policy</p>
+            <p>Cookies</p>
+          </div>
+          <div>
+            <p>Legal</p>
+            <p>Privacy Policy</p>
+            <p>About Ads</p>
+          </div>
+        </div>
+        <div class="sidebar-lang-cont">
+          <i class="fa-solid fa-globe" style="color: #ffffff"></i>
+          <p>English</p>
+        </div>
+      </section>
+
+      <!-- Main Content -->
+       <section class="main-content">
+            <div class="main-section-cont">
+                <div class="section-header-cont">
+                    <h3>Trending songs</h3>
+                    <p>Show all</p>
+                </div>
+                <div class="section-item-cont">
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Afsos.jpeg" alt="Song Thumbnail">
+                        </div>
+                        <h4>Afsos</h4>
+                        <p>Anuv Jain</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Cry for me.jpeg" alt="Song Thumbnail">
+                        </div>
+                        <h4>Cry for me</h4>
+                        <p>The Weekend</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Tum hi ho.jpeg" alt="Song Thumbnail">
+                        </div>
+                        <h4>Tum hi ho</h4>
+                        <p>Arijit Singh</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Back I'm Back.jpeg" alt="Song Thumbnail">
+                        </div>
+                        <h4>Back, I'm back</h4>
+                        <p>Akon</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Stay High.jpeg" alt="Song Thumbnail">
+                        </div>
+                        <h4>Stay high</h4>
+                        <p>Juice WRLD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section-cont">
+                <div class="section-header-cont">
+                    <h3>Popular artists</h3>
+                    <p>Show all</p>
+                </div>
+                <div class="section-item-cont">
+                    <div class="card circular-card">
+                        <div class="img-cont">
+                            <img src="./assets/Alec Benjamin.jpeg" alt="Artist Thumbnail">
+                        </div>
+                        <h4>Alec Benjamin</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card circular-card">
+                        <div class="img-cont">
+                            <img src="./assets/Arijit Singh.jpeg" alt="Artist Thumbnail">
+                        </div>
+                        <h4>Arijit Singh</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card circular-card">
+                        <div class="img-cont">
+                            <img src="./assets/Central Cee.jpeg" alt="Artist Thumbnail">
+                        </div>
+                        <h4>Central Cee</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card circular-card">
+                        <div class="img-cont">
+                            <img src="./assets/Post Malone.jpeg" alt="Artist Thumbnail">
+                        </div>
+                        <h4>Post Malone</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card circular-card">
+                        <div class="img-cont">
+                            <img src="./assets/Emimen.jpeg" alt="Artist Thumbnail">
+                        </div>
+                        <h4>Eminem</h4>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section-cont">
+                <div class="section-header-cont">
+                    <h3>Popular radio</h3>
+                    <p>Show all</p>
+                </div>
+                <div class="section-item-cont">
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Drake Radio.jpeg" alt="Radio Thumbnail">
+                        </div>
+                        <p>With Bryson Tiller, Drake, PARTYNEXTDOOR</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/SZA Radio.jpeg" alt="Radio Thumbnail">
+                        </div>
+                        <p>SZA, Sabrina Carpenter, Olivia Dean</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Post Malone Radio.jpeg" alt="Radio Thumbnail">
+                        </div>
+                        <p>Post Malone, Alec Benjamin, TV Girl</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Kendrick Radio.jpeg" alt="Radio Thumbnail">
+                        </div>
+                        <p>Kendrick Lamar, Sam Fender, Drake, The Weekend</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-cont">
+                            <img src="./assets/Teddy Swim Radio.jpeg" alt="Radio Thumbnail">
+                        </div>
+                        <p>Teddy Swims, Tate McRae, With Inhaler</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-cont">
+                    <h4>Company</h4>
+                    <p>About</p>
+                    <p>Jobs</p>
+                    <p>For the Record</p>
+                </div>
+                <div class="footer-cont">
+                    <h4>Communities</h4>
+                    <p>For Artists</p>
+                    <p>Developers</p>
+                    <p>Advertising</p>
+                    <p>Investors</p>
+                    <p>Vendors</p>
+                </div>
+                <div class="footer-cont">
+                    <h4>Useful links</h4>
+                    <p>Support</p>
+                    <p>Free Mobile App</p>
+                    <p>Popular by Country</p>
+                    <p>Import your music</p>
+                </div>
+                <div class="footer-cont">
+                    <h4>Spotify Plans</h4>
+                    <p>Premium Individual</p>
+                    <p>Premium Duo</p>
+                    <p>Premium Family</p>
+                    <p>Premium Student</p>
+                    <p>Spotify Free</p>
+                </div>
+                <div class="footer-social-media-cont">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </footer>
+            <section class="copyright-cont">
+                <p> © 2025 Spotify Clone. All rights reserved</p>
+            </section>
+       </section>
+    </main>
+
+    <!-- Bottom Section for free signup -->
+    <section class="free-signup-cont">
+        <div class="free-signup-left-cont">
+            <p>Preview of Spotify</p>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="free-signup-right-cont">
+            <button id="signup-free-btn">Sign up free</button>
+        </div>
+    </section>
+  </body>
 </html>
