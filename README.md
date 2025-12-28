@@ -13,6 +13,12 @@ A **Spotify web UI clone** built using **HTML and CSS**, focused on replicating 
 - CSS (Flexbox, Transitions)  
 - Git & GitHub  
 
+## Responsiveness
+
+This project is **not fully responsive** yet and is best viewed on **desktop/laptop screens**  
+(e.g. MacBook Air 13-inch).  
+Mobile and tablet responsiveness will be added in future updates.
+
 ## Note
 This project is for **educational purposes only**.  
 All design inspiration belongs to **Spotify**.
